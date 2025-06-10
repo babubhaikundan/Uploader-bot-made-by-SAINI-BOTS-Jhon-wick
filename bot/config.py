@@ -21,9 +21,9 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "tg_bot")
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://kundanvirajbhatt:YA0cwX04q2PSMF8h@cluster0.g5md3iu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5096393058"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002616654030"))
     WEB_SERVER = is_enabled(os.environ.get("WEB_SERVER", "False"), False)
     WEBHOOK = True  # Don't change this
     PORT = int(os.environ.get("PORT", 8000))
